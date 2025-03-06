@@ -1,0 +1,153 @@
+/* Alap beállítások */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigáció */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1e1e1e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;  /* Ha szűk a hely, akkor új sorba tör */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+/* Hero szakasz */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    background: url('coffee_bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #f4a261;
+    color: #121212;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e76f51;
+}
+
+/* Tartalom */
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* Menü */
+.menu-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Kapcsolat */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+button {
+    background-color: #f4a261;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+
+/* Lábléc */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
