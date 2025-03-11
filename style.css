@@ -1,0 +1,274 @@
+/* Alap beállítások 12*/
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    scroll-margin-top: 120px;  /* a fejléc magasságának megfelelő  */
+    padding-top: 20px;
+}
+
+
+/* Navigáció */
+nav {
+    display: flex;
+    /*justify-content: space-between;
+    */align-items: center;
+    padding: 5px 20px;
+    background-color: #1e1e1e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    /*font-weight: 600;*/
+    color:blanchedalmond;
+    display: inline-block; /* A keret csak a szöveg méretéhez igazodik */
+    padding: 10px; /* 2px távolság a szöveg és a keret között */
+    border: 3px solid blanchedalmond; /* 2px vastag szegély */
+    border-radius: 8px; /* Lekerekített sarkok */
+    text-align: center;   
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;  /* Ha szűk a hely, akkor új sorba tör */
+
+}
+
+nav ul li {
+    border: 3px solid blanchedalmond; /* 2px vastag szegély */
+    border-radius: 8px; /* Lekerekített sarkok */
+    display: inline;
+    padding: 10px; 
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color 0.3s;
+    
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+/* Hero szakasz */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 10;
+    color: #f4a261;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #f4a261;
+    color: #121212;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e76f51;
+}
+
+/* Tartalom */
+.container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #f4a261;
+}
+
+/* Táblázat */
+table {
+    /*border: 1px solid white;*/
+    border-collapse: collapse;
+  }
+  th, td {
+    /*background-color: #2e2921;*/
+    border: 1px solid rgb(55, 42, 42);
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  th {
+    background-color: #373228;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+/* Menü */
+.menu-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: left;
+    transition: transform 0.3s;
+    font-size: 12px;
+}
+
+.menu-item-400 {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.menu-item-200 {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Kapcsolat */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+button {
+    background-color: #f4a261;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+
+/* Lábléc */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+
+
+
+.main-list {
+    list-style-type: square;
+    color: #8b4513;
+}
+
+.main-list li {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.sub-list {
+    list-style-type: circle;
+    margin-left: 20px;
+    color: #f6d8ca;
+}
+
+.sub-list li {
+    font-size: 16px;
+}
+
+
+
+
+/* Linkek alapértelmezett színe */
+a {
+    text-decoration: none;
+    color: #c19c68;
+    font-weight: bold;
+}
+
+/* Ha az egér fölé megy */
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Ha a linket már meglátogatták */
+a:visited {
+    color: #6a0dad;
+}
+
+/* Aktív link (éppen kattintás alatt) */
+a:active {
+    color: #ff0000;
+}
+
+
+.no-number {
+    list-style-type: none;  /* Eltünteti a számozást */
+    padding-left: 0;        /* Bal oldali behúzás eltávolítása */
+}
+
+.no-number li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
