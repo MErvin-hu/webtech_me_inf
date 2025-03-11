@@ -1,7 +1,7 @@
 https://github.com/anitaagardi/web-erettsegi/blob/main/beadand%C3%B3%20feladat.pdf
 
 
-[# Beadandó feladat]
+# Beadandó feladat
 - Tetszőleges téma
 - 1 db HTML fájl
 - 1 db CSS fájl
