@@ -1,4 +1,4 @@
-/* Alap beállítások 12*/
+/* Alap beállítások*/
 body {
     background-color: #121212;
     color: #e0e0e0;
@@ -31,8 +31,8 @@ nav {
     /*font-weight: 600;*/
     color:blanchedalmond;
     display: inline-block; /* A keret csak a szöveg méretéhez igazodik */
-    padding: 10px; /* 2px távolság a szöveg és a keret között */
-    border: 3px solid blanchedalmond; /* 2px vastag szegély */
+    padding: 10px; /* 10px távolság a szöveg és a keret között */
+    border: 3px solid blanchedalmond; /* 3px vastag szegély */
     border-radius: 8px; /* Lekerekített sarkok */
     text-align: center;   
 }
@@ -48,7 +48,7 @@ nav ul {
 }
 
 nav ul li {
-    border: 3px solid blanchedalmond; /* 2px vastag szegély */
+    border: 3px solid blanchedalmond; /* 3px vastag szegély */
     border-radius: 8px; /* Lekerekített sarkok */
     display: inline;
     padding: 10px; 
@@ -122,11 +122,11 @@ h2 {
 
 /* Táblázat */
 table {
-    /*border: 1px solid white;*/
+    /*border: 1px solid white; csak egy lehetőség*/
     border-collapse: collapse;
   }
   th, td {
-    /*background-color: #2e2921;*/
+    /*background-color: #2e2921; csak egy lehetőség*/
     border: 1px solid rgb(55, 42, 42);
     border-radius: 10px;
     text-align: left;
