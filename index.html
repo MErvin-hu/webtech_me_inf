@@ -318,4 +318,22 @@
     </footer>
 
 </body>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Megakadályozza az alapértelmezett űrlapbeküldést
+
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+
+            // Az email tartalmának összeállítása
+            let subject = encodeURIComponent("Kapcsolatfelvétel - " + name);
+            let body = encodeURIComponent("Név: " + name + "\nE-mail: " + email + "\n\nÜzenet:\n" + message);
+
+            // mailto link létrehozása és átirányítás
+            window.location.href = `mailto:your_email@example.com?subject=${subject}&body=${body}`;
+        });
+    </script>
+    
 </html>
